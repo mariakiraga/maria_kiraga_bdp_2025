@@ -1,1 +1,1 @@
-# maria_kiraga_bdp_2025
+# bdp-template
