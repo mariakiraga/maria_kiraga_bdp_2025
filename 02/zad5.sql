@@ -28,3 +28,44 @@ VALUES (
     'Building F'
 );
 
+INSERT INTO roads (geometry, name)
+VALUES (
+    ST_GeomFromText('LINESTRING(0 4.5, 12 4.5)'),
+    'Road X'
+);
+
+INSERT INTO roads (geometry, name)
+VALUES (
+    ST_GeomFromText('LINESTRING(7.5 0, 7.5 10.5)'),
+    'Road Y'
+);
+
+INSERT INTO poi (geometry, name)
+VALUES (
+    ST_GeomFromText('POINT(1 3.5)'),
+    'G'
+);
+
+INSERT INTO poi (geometry, name)
+VALUES (
+    ST_GeomFromText('POINT(5.5 1.5)'),
+    'H'
+);
+
+INSERT INTO poi (geometry, name)
+VALUES (
+    ST_GeomFromText('POINT(9.5 6)'),
+    'I'
+);
+
+INSERT INTO poi (geometry, name)
+VALUES (
+    ST_GeomFromText('POINT(6.5 6)'),
+    'J'
+);
+
+INSERT INTO poi (geometry, name)
+VALUES (
+    ST_GeomFromText('POINT(6 9.5)'),
+    'K'
+);
